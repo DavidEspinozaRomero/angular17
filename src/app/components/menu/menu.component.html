@@ -1,0 +1,11 @@
+<p>menu works!</p>
+
+<ul>
+  @for (item of menu.items; track $index) {
+  <li>
+    <a [routerLink]="item.link" routerLinkActive="active">{{ item.name }}</a>
+  </li>
+  } @empty {
+  <p>No todos</p>
+  }
+</ul>
