@@ -41,8 +41,10 @@ testem.log
 .DS_Store
 Thumbs.db
 
+#locks
+pnpm-lock.yaml
+
 #mine
 /.angular
 /.vscode
-
-pnpm-lock.yaml
+notas.md
