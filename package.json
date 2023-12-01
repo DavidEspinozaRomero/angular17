@@ -8,7 +8,8 @@
     "build:prod:netlify": "ng build && pnpm run serve:ssr:angular17",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular17": "node dist/angular17/server/server.mjs"
+    "serve:ssr:angular17": "node dist/angular17/server/server.mjs",
+    "deploy":"ng deploy"
   },
   "private": true,
   "dependencies": {
