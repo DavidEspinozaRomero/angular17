@@ -42,7 +42,7 @@ testem.log
 Thumbs.db
 
 #locks
-pnpm-lock.yaml
+# pnpm-lock.yaml
 
 #mine
 /.angular
